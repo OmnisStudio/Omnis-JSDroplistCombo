@@ -1,0 +1,14 @@
+;  Enter your initialization code here
+
+Do iPopupList.$define(iPopupCol)
+Do iPopupList.$add('BasketBall')
+
+Do iComboList.$define(iComboCol)
+Do iComboList.$add('BasketBall')
+Do iComboList.$add('BaseBall')
+Do iComboList.$add('Football')
+Do iComboList.$add('Golf')
+Do iComboList.$add('Tennis')
+
+Do iDropList.$define(iDropCol)
+Do iDropList.$add('BasketBall')

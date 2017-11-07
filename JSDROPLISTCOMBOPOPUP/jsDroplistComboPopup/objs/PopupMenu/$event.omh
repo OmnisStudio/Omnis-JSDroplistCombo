@@ -1,0 +1,4 @@
+On evClick
+	If pLineNumber>0
+		Do $cinst.$showmessage(con('Line ',pLineNumber,' ',iPopupList.[pLineNumber].iPopupCol,' Selected'))
+	End If

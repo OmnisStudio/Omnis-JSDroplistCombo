@@ -1,0 +1,7 @@
+On evClick
+	If iComboValue<>''
+		Do iDropList.$add(iComboValue)
+		Do iDropList.$line.$assign(iDropList.$linecount)
+		
+		Do iPopupList.$add(iComboValue)
+	End If
